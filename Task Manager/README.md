@@ -86,3 +86,18 @@ router.post("/reset-password/:token", resetPassword);
 - Cloudinary: https://cloudinary.com/
 - Node-cron: https://www.npmjs.com/package/node-cron
 - Platforma Vercel: https://vercel.com
+
+## Configurare .env
+
+Pentru ca aplicația să funcționeze corect, trebuie să adaugi un fișier `.env` în directorul rădăcină al backend-ului. Acesta trebuie să conțină următoarele valori personalizate:
+
+```
+JWT_SECRET=cheia_ta_secreta
+MONGODB_URI=stringul_tău_de_conectare_la_MongoDB
+MAILERSEND_API_KEY=cheia_ta_de_la_mailersend
+CLOUDINARY_CLOUD_NAME=numele_tău_cloudinary
+CLOUDINARY_API_KEY=cheia_ta_cloudinary
+CLOUDINARY_API_SECRET=secretul_tău_cloudinary
+```
+
+Asigură-te că aceste date sunt corecte pentru a permite funcționarea completă a autentificării, trimiterii de emailuri și încărcării de fișiere.
