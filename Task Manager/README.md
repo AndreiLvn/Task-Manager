@@ -97,7 +97,7 @@ MONGODB_URI=stringul_tău_de_conectare_la_MongoDB
 MAILERSEND_API_KEY=cheia_ta_de_la_mailersend
 CLOUDINARY_CLOUD_NAME=numele_tău_cloudinary
 CLOUDINARY_API_KEY=cheia_ta_cloudinary
-CLOUDINARY_API_SECRET=secretul_tău_cloudinary
+CLOUDINARY_API_SECRET=API-ul_tău_secret_cloudinary
 ```
 
 Asigură-te că aceste date sunt corecte pentru a permite funcționarea completă a autentificării, trimiterii de emailuri și încărcării de fișiere.
