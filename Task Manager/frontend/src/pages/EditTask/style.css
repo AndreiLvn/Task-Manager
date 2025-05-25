@@ -1,0 +1,147 @@
+.edit-task-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.edit-task-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.edit-task-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.edit-task-container input[type="text"],
+.edit-task-container input[type="number"],
+.edit-task-container input[type="datetime-local"],
+.edit-task-container textarea,
+.edit-task-container input[type="file"] {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.edit-task-container button {
+  padding: 12px;
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  width: 100%;
+}
+
+.edit-task-container button:hover {
+  background-color: #1a252f;
+}
+
+.edit-task-container p {
+  margin-top: 10px;
+  font-weight: 500;
+  color: green;
+  text-align: center;
+}
+
+.attachments {
+  margin-top: 25px;
+}
+
+.attachments h4 {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.attachments ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.attachments li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.attachments li a {
+  text-decoration: none;
+  color: #2980b9;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.attachments li a:hover {
+  text-decoration: underline;
+}
+
+.attachment-delete-button {
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  margin-left: 10px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: inline-block;
+  width: auto;
+}
+
+.attachment-delete-button:hover {
+  background-color: #1a252f;
+}
+
+.reminders-section label {
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+  color: #2c3e50;
+}
+
+.reminders-section .reminder-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.reminders-section .reminder-input input[type="number"] {
+  width: 80px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.reminders-section .reminder-input select {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.remove-reminder-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  line-height: 1;
+}
+
+.remove-reminder-button:hover {
+  background-color: #c0392b;
+}

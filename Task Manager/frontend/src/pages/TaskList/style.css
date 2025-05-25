@@ -1,0 +1,86 @@
+.tasklist-container {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.tasklist-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+.tasklist-container form input,
+.tasklist-container form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.tasklist-container form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.tasklist-container form button:hover {
+  background-color: #1a252f;
+}
+
+.tasklist-container ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.tasklist-container li {
+  background-color: #f7f7f7;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border-left: 4px solid #2c3e50;
+}
+
+.tasklist-container button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tasklist-container .edit-button {
+  background-color: #3498db;
+  color: white;
+  margin-right: 8px;
+}
+
+.tasklist-container .edit-button:hover {
+  background-color: #2980b9;
+}
+
+.tasklist-container .delete-button {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.tasklist-container .delete-button:hover {
+  background-color: #c0392b;
+}
+
+.tasklist-container li > div {
+  margin-top: 8px;
+}

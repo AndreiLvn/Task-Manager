@@ -1,0 +1,94 @@
+.home {
+  font-family: "Segoe UI", sans-serif;
+  color: #2c3e50;
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.hero {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 25px;
+}
+
+.cta-button {
+  padding: 12px 30px;
+  background-color: #2c3e50;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #1a252f;
+}
+
+.features,
+.about,
+.testimonials {
+  padding: 40px 20px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.features h2,
+.about h2,
+.testimonials h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.1em;
+  line-height: 2;
+}
+
+.slider img {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  margin-bottom: 30px;
+}
+
+.testimonial {
+  padding: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+  font-style: italic;
+  font-size: 1.1em;
+}
+
+.testimonial strong {
+  display: block;
+  margin-top: 10px;
+  font-size: 1em;
+  font-style: normal;
+  color: #555;
+}
+
+.footer {
+  margin-top: 60px;
+  font-size: 0.9em;
+  color: #999;
+}
