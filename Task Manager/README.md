@@ -1,6 +1,6 @@
 # Task Manager App
 
-## 🌐 Link publicare aplicație
+## Link publicare aplicație
 
 https://task-manager-three-fawn.vercel.app/
 
